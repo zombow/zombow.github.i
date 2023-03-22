@@ -1,16 +1,23 @@
 ---
 ---
-
 /*!------------------------------------------------------------------
 [MAIN STYLESHEET]
 
 PROJECT:	Project Name
 VERSION:	Versoin Number
 -------------------------------------------------------------------*/
-
 /*------------------------------------------------------------------
 [TABLE OF CONTENTS]
 -------------------------------------------------------------------*/
+@font-face {
+    font-family: 'bitbit';
+    src: url('assets\fonts\DNFBitBitTTF.ttf') format('truetype');
+    src: url('assets\fonts\DNFBitBitOTF.otf') format('opentype');
+}
+
+body {
+    font-family: 'bitbit' sans-serif;
+}
 
 @import 'variables';
 
