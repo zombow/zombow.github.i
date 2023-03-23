@@ -33,3 +33,9 @@ VERSION:	Versoin Number
 @import 'templates/about';
 
 @import 'templates/portfolio';
+
+@font-face {
+    font-family: 'bitbit';
+    src: url('/fonts/DNFBitBitTTF.ttf') format('truetype');
+    src: url('/fonts/DNFBitBitOTF.otf') format('opentype');
+}
