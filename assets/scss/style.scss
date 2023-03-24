@@ -22,6 +22,8 @@ VERSION:	Versoin Number
 
 @import 'common';
 
+@import 'fonts';
+
 @import 'templates/navigation';
 
 @import 'templates/hero-area';
@@ -34,8 +36,3 @@ VERSION:	Versoin Number
 
 @import 'templates/portfolio';
 
-@font-face {
-    font-family: 'bitbit';
-    src: url('/assets/fonts/DNFBitBitTTF.ttf') format('truetype');
-    src: url('/assets/fonts/DNFBitBitOTF.otf') format('opentype');
-}

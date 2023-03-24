@@ -20,7 +20,6 @@ defaults:
 
 include:
   - _pages
-  - fonts
 
 sass:
   sass_dir: assets/scss
