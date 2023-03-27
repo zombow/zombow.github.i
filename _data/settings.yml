@@ -6,7 +6,7 @@ title: zombow
 logo:
 author: themefisher
 description: this is meta description
-email: steve.fruits@email.com
+email: zombow.fruits@email.com
 phone: +880 2544 658 256
 address: 125/A, CA Commercial Area, California, USA
 copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
@@ -54,18 +54,34 @@ blurb-btn-name: know more
 
 # About Page
 
-# Work Process Section
-work-process:
-  - title: "Research and Plan"
+#test-section
+test-section:
+  - title: "워크 프로세스1"
     icon: "assets/images/icons/plan.png"
     content: "첫번째 소개입니다."
 
-  - title: "Design and Develop"
+  - title: "워크 프로세스2"
     icon: "assets/images/icons/design.png"
     content: "두번째 소개입니다."
-  - title: "Deliver"
+
+  - title: "워크프로세스3"
     icon: "assets/images/icons/print.png"
     content: "세번째 작업 소개입니다."
+
+# Work Process Section
+work-process:
+  - title: "워크 프로세스1"
+    icon: "assets/images/icons/plan.png"
+    content: "첫번째 소개입니다."
+
+  - title: "워크 프로세스2"
+    icon: "assets/images/icons/design.png"
+    content: "두번째 소개입니다."
+
+  - title: "워크프로세스3"
+    icon: "assets/images/icons/print.png"
+    content: "세번째 작업 소개입니다."
+
 # My Team Section
 team:
   - title: "Jack Schenziwe"
@@ -79,6 +95,7 @@ team:
   - title: "John Doe"
     image: "assets/images/team/member-3.png"
     designation: "Designer"
+
 
 #-------------------------------
 # Skills Section
