@@ -2,14 +2,14 @@
 #-------------------------------
 # General Site Settings
 
-title: zombow
+title: 개발중인 포트폴리오 입니다.
 logo:
-author: themefisher
-description: this is meta description
-email: zombow.fruits@email.com
-phone: +880 2544 658 256
-address: 125/A, CA Commercial Area, California, USA
-copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
+author: Designed & Developed by Themefisher, Modified by zombow
+description: Portfolio, 포트폴리오
+email: dksduddnr33@gmail.com
+phone: +82 010 5465 5617
+address: 경기도 고양시 일산동구 식사동 / Korea
+copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com) / Modified by [zombow](https://github.com/zombow)
 
 menu:
   - { name: About, link: "/about" }
@@ -18,7 +18,7 @@ menu:
   - { name: Contact, link: "/contact" }
 
 #-------------------------------
-# Google Analytics Section
+# Google Analytics Section 방문자의 행동패턴 분석
 
 # Analytics helps you understand who visits your website.
 # Learn more at: http://support.google.com/analytics/answer/1008065
@@ -28,7 +28,7 @@ menu:
 google-analytics: # UA-XXXXXX-X
 
 #-------------------------------
-# Comment Section (Disqus)
+# Comment Section (Disqus) 댓글기능
 
 disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 
@@ -39,8 +39,8 @@ hero:
   hero-title: Developer <br> 안영욱 <br> Portfolio
 
 social:
-  - { icon: "ti-facebook", link: "#" }
-  - { icon: "ti-instagram", link: "#" }
+  - { icon: "ti-github", link: "https://github.com/zombow" }
+  - { icon: "ti-kakao", link: "#" }
   - { icon: "ti-dribbble", link: "#" }
   - { icon: "ti-twitter", link: "#" }
 
@@ -119,56 +119,6 @@ skills:
 #    }
 
 #-------------------------------
-# Education Section 교육내역
-
-education-title: Education
-education:
-  - {
-      name: Marters in UX Design,
-      date: "2006",
-      organization: "Masassusets Institute of Technology",
-    }
-  - {
-      name: Honours in Fine Arts,
-      date: "2004",
-      organization: "Harvard University",
-    }
-  - {
-      name: Higher Secondary Certificat,
-      date: "2000",
-      organization: "Cardiff School",
-    }
-  - {
-      name: Secondary School Certificate,
-      date: "1998",
-      organization: "Cardiff School",
-    }
-
-#-------------------------------
-# Services Section 내가 제공하는 기술
-
-#services-title: Services
-#services:
-#  - {
-#      name: UI Design,
-#      icon: ti-palette,
-#      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-#      active: ,# Add true to select section
-#    }
-#  - {
-#      name: UX Design,
-#      icon: ti-vector,
-#      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-#      active: true, # Add true to select section
-#    }
-#  - {
-#      name: Interaction Design,
-#      icon: ti-panel,
-#      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-#      active: ,# Add true to select section
-#    }
-
-#-------------------------------
 # Portfolio (Section and Page)
 
 # Portfolio Home Section 포트폴리오 미리보기
@@ -243,6 +193,57 @@ portfolio-items:
     url: "#"
     portfolio-type:
       - type: "illustration"
+
+#-------------------------------
+# Services Section 내가 제공하는 기술
+
+#services-title: Services
+#services:
+#  - {
+#      name: UI Design,
+#      icon: ti-palette,
+#      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+#      active: ,# Add true to select section
+#    }
+#  - {
+#      name: UX Design,
+#      icon: ti-vector,
+#      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+#      active: true, # Add true to select section
+#    }
+#  - {
+#      name: Interaction Design,
+#      icon: ti-panel,
+#      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+#      active: ,# Add true to select section
+#    }
+
+#-------------------------------
+# Education Section 교육내역
+
+education-title: Education
+education:
+  - {
+      name: Marters in UX Design,
+      date: "2006",
+      organization: "Masassusets Institute of Technology",
+    }
+  - {
+      name: Honours in Fine Arts,
+      date: "2004",
+      organization: "Harvard University",
+    }
+  - {
+      name: Higher Secondary Certificat,
+      date: "2000",
+      organization: "Cardiff School",
+    }
+  - {
+      name: Secondary School Certificate,
+      date: "1998",
+      organization: "Cardiff School",
+    }
+
 
 #-------------------------------
 # Testimonials Section 추천서
