@@ -39,8 +39,8 @@ hero:
   hero-title: Developer <br> 안영욱 <br> Portfolio
 
 social:
-  - { icon: "ti-github", link: "https://github.com/zombow" }
-  - { icon: "ti-kakao", link: "#" }
+  - { icon: "icon-github", link: "#"}
+  - { icon: "ti-instagram", link: "#" }
   - { icon: "ti-dribbble", link: "#" }
   - { icon: "ti-twitter", link: "#" }
 
