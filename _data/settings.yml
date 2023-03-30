@@ -39,10 +39,8 @@ hero:
   hero-title: Developer <br> 안영욱 <br> Portfolio
 
 social:
-  - { icon: "icon-github", link: "#"}
-  - { icon: "ti-instagram", link: "#" }
-  - { icon: "ti-dribbble", link: "#" }
-  - { icon: "ti-twitter", link: "#" }
+  - { icon: "myicon-github", link: "https://github.com/zombow"}
+  - { icon: "myicon-velog", link: "https://velog.io/@dksduddnr33" }
 
 #-------------------------------
 # About (Section and Page)
@@ -58,7 +56,7 @@ blurb-btn-name: know more
 # Work Process Section 워크프로세스
 #work-process:
 #  - title: "워크 프로세스1"
-#    icon: "assets/images/icons/plan.png"
+#   icon: "assets/images/icons/plan.png"
 #    content: "첫번째 소개입니다."
 
 #  - title: "워크 프로세스2"
@@ -83,16 +81,41 @@ blurb-btn-name: know more
 #    image: "assets/images/team/member-3.png"
 #    designation: "Designer"
 
+#-------------------------------
+# mySkills Section 나의 스킬(커스텀)
+myskills:
+  주력 기술:
+    - icon: "assets/images/icons/plan.png"
+      title: 언리얼 / Unreal
+      content: 내가할수있는 언리얼에대해 기술해야합니다.
+    - icon: "assets/images/icons/plan.png"
+      title: C++
+      content: C++를 어느정도 알고있는지 간단하게 기술해야합니다.
+  경험 기술:
+    - icon: "assets/images/icons/plan.png"
+      title: 유니티 / Unity
+      content: 유니티를 몇개월정도 어떤용도로 사용햇는지 기술합니다.
+    - icon: "assets/images/icons/plan.png"
+      title: C#
+      content: 유니티를 하기위해 사용했던 C#에대해 조금 설명해야합니다.
+  학습중인 기술:
+    - icon: "assets/images/icons/plan.png"
+      title: 필요
+      content: 전문적이진않지만 배웠던 기술에대해 조금씩 설명합니다.
+    - icon: "assets/images/icons/plan.png"
+      title: 필요
+      content: 짧게해본적이있어 넓은범위의 지식이있음을 알수있게해야합니다.
+
 
 #-------------------------------
-# Skills Section 나의 스킬
+# Skills Section 나의 스킬(게이지)
 
-skills-title: Skills
-skills:
-  - { name: Web Design, color: "#fdb157", value: "90%" }
-  - { name: Logo Design, color: "#9473e6", value: "60%" }
-  - { name: After Effects, color: "#bdecf6", value: "80%" }
-  - { name: Web App, color: "#ffbcaa", value: "70%" }
+#skills-title: Skills
+#skills:
+#  - { name: Web Design, color: "#fdb157", value: "90%" }
+#  - { name: Logo Design, color: "#9473e6", value: "60%" }
+#  - { name: After Effects, color: "#bdecf6", value: "80%" }
+#  - { name: Web App, color: "#ffbcaa", value: "70%" }
 
 #-------------------------------
 # Exprerience Section

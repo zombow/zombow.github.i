@@ -2,7 +2,7 @@
 css:
   - "/assets/plugins/bootstrap/bootstrap.min.css"
   - "/assets/plugins/themify-icons/themify-icons.css"
-  - "/assets/plugins/mygithub-icons/mygithub-icons.css"
+  - "/assets/plugins/myiconfonts/myiconfonts.css"
   - "/assets/plugins/slick/slick.css"
 
 ################ JS Plugins ######################

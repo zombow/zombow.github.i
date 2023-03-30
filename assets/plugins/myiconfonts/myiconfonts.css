@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'mygithub';
-  src:  url('fonts/mygithub.eot?vpv5kj');
-  src:  url('fonts/mygithub.eot?vpv5kj#iefix') format('embedded-opentype'),
-    url('fonts/mygithub.ttf?vpv5kj') format('truetype'),
-    url('fonts/mygithub.woff?vpv5kj') format('woff'),
-    url('fonts/mygithub.svg?vpv5kj#mygithub') format('svg');
+  font-family: 'myiconfonts';
+  src:  url('fonts/myiconfonts.eot?ozmemm');
+  src:  url('fonts/myiconfonts.eot?ozmemm#iefix') format('embedded-opentype'),
+    url('fonts/myiconfonts.ttf?ozmemm') format('truetype'),
+    url('fonts/myiconfonts.woff?ozmemm') format('woff'),
+    url('fonts/myiconfonts.svg?ozmemm#myiconfonts') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -12,7 +12,7 @@
 
 i {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'mygithub';
+  font-family: 'myiconfonts';
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -25,6 +25,10 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-github:before {
+.myicon-github:before {
   content: "\e900";
+}
+
+.myicon-velog:before {
+  content: "\e901";
 }
