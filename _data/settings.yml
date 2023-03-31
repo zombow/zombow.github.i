@@ -52,7 +52,29 @@ blurb-btn-name: know more
 
 # About Page
 
+#------------------
+mytraits-title: myTraits
+mytraits:
+  - {
+      name: 오픈 마인드,
+      icon: ti-palette,
+      description: "반대보단 한번더 생각해보고 판단",
+      active: false, # Add true to select section
+    }
+  - {
+      name: 원할한 커뮤니케이션,
+      icon: ti-vector,
+      description: "타인과 대화하고 아이디어를 공유하는것은 즐겁다.",
+      active: true, # Add true to select section
+    }
+  - {
+      name: 배우는 자세,
+      icon: ti-panel,
+      description: "언제나 자신의 부족한점을 개선하려하고 배우려고한다",
+      active: false, # Add true to select section
+    }
 
+#--------------------------
 # Work Process Section 워크프로세스
 #work-process:
 #  - title: "워크 프로세스1"
@@ -118,7 +140,7 @@ myskills:
 #  - { name: Web App, color: "#ffbcaa", value: "70%" }
 
 #-------------------------------
-# Exprerience Section
+## Exprerience Section
 
 #experience-title: Experience 이력사항
 #experience:
@@ -218,7 +240,7 @@ portfolio-items:
       - type: "illustration"
 
 #-------------------------------
-# Services Section 내가 제공하는 기술
+## Services Section 내가 제공하는 기술
 
 #services-title: Services
 #services:
@@ -247,24 +269,19 @@ portfolio-items:
 education-title: Education
 education:
   - {
-      name: Marters in UX Design,
-      date: "2006",
-      organization: "Masassusets Institute of Technology",
+      name: "메타버스3.0 : AI기반 창작 인력 양성과정 수료",
+      date: "2022.07 ~ 2022.11",
+      organization: "한국콘텐츠진흥원 - 언리얼 프로그래밍",
     }
   - {
-      name: Honours in Fine Arts,
-      date: "2004",
-      organization: "Harvard University",
+      name: "유니티 AR/VR 콘텐츠 양성자 교육과정 수료",
+      date: "2021.10 ~ 2022.03",
+      organization: "고용노동부 - 유니티 프로그래밍",
     }
   - {
-      name: Higher Secondary Certificat,
-      date: "2000",
-      organization: "Cardiff School",
-    }
-  - {
-      name: Secondary School Certificate,
-      date: "1998",
-      organization: "Cardiff School",
+      name: "김포대학교 컴퓨터 네트워크과 졸업",
+      date: "2017.03 ~ 2019.02",
+      organization: "김포대학교",
     }
 
 
