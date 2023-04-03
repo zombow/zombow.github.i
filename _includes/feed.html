@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Velog RSS Feed</title>
+</head>
+<body>
+    <h1>Velog RSS Feed</h1>
+    <div id="feed"></div>
+
+    <script>
+        const RSS_FEED_URL = 'https://v2.velog.io/rss/@dksduddnr33';
+
+        const feedElement = document.getElementById('feed');
+
+        fetch(RSS_FEED_URL)
+            .then(response => response.text())
+            .then(str => new DOMParser().parseFromString(str, 'text/xml'))
+            .then(data => {
+                const items = data.querySelectorAll('item');
+                let html = '';
+                items.forEach(item => {
+                    const title = item.querySelector('title').textContent;
+                    const link = item.querySelector('link').textContent;
+                    const description = item.querySelector('description').textContent;
+                    const pubDate = new Date(item.querySelector('pubDate').textContent);
+
+                    html += `
+                            <h2><a href="${link}">${title}</a></h2>
+                            <p>${description}</p>
+                            <p><em>${pubDate.toDateString()}</em></p>
+                            <hr>
+                        `;
+                });
+                feedElement.innerHTML = html;
+            })
+            .catch(error => console.error(error));
+    </script>
+</body>
+</html>
