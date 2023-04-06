@@ -13,7 +13,7 @@ copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.c
 
 menu:
   - { name: About, link: "/about" }
-  - { name: Blog, link: "/blog" }
+  - { name: Blog, link: "/myblog" }
   - { name: Portfolio, link: "/portfolio" }
   - { name: Contact, link: "/contact" }
 
@@ -342,4 +342,4 @@ education:
 # Contact Section 연락처 상자
 
 contact-title: Contact Info
-contact-email: steve.fruits@email.com
+contact-email: dksduddnr33@gmail.com
