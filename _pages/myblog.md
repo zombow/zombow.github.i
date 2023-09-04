@@ -10,21 +10,27 @@ title: My Blog
       {% include mypost.html %}
       {% endfor %}
     </div>
-    <!-- velog feed api -->
-  <div id="feed"></div>
-  <script>
-    fetch('https://velogfeed.vercel.app/api/numfeed?username=dksduddnr33&postnum=0')
-      .then(res => res.json())
-      .then(feed => {
-        let html = '';
-          const item = feed;
-          html += `<div>
-                      <a href="${item.link}">${item.title}</a>
-                      <p>${item.contentSnippet}</p>
-                   </div>`;
-        document.getElementById('feed').innerHTML = html;
-      });
-  </script>
+<!-- velog feed api -->
+<div id="feed"></div>
+<script>
+  fetch('https://velogfeed.vercel.app/api/feed?username=dksduddnr33&postnum=0')
+.then(res => res.json())
+    .then(postinfo => {
+      const svg = postinfo.svg;
+      const url = postinfo.url;
+      const post = postinfo.post;
+      const html = `
+        <div>
+          <a href="${url}">${svg}</a>
+        </div>
+      `;
+      document.getElementById('feed').innerHTML = html;
+    })
+    .catch(error => console.error(error));
+</script>
+
+<!-- velog feed api end -->
+
   </div>
-  <!-- velog feed api end -->
 </section>
+
