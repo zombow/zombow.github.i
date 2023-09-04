@@ -21,7 +21,7 @@ title: My Blog
       const post = postinfo.post;
       const html = `
         <div>
-          <a href="${url}">${svg}</a>
+          <a href="${url}">${svg}</a> <!-- postcard position -->
         </div>
       `;
       document.getElementById('feed').innerHTML = html;
