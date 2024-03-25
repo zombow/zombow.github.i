@@ -3,25 +3,43 @@ layout: myblog
 title: My Blog
 ---
 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Blog</title>
+  <style>
+    #feed {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; /* 가로 간격을 균등하게 분배하여 정렬 */
+        column-gap:30px;
+        row-gap: 50px;
+    }
+
+
+    @media screen and (max-width: 1000px) {
+    #feed {
+        display: flex;
+        justify-content: center; /* 가로 간격을 균등하게 분배하여 정렬 */
+      }
+    }
+
+  </style>
+</head>
+<body>
+
 <section class="section">
-  <div class="container">
-     <!--구 벨로그 api
-     <div class="row">
-      {% for post in site.posts offset:0 limit:6%} <!--이 post가 읽어들인 마크다운파일
-      {% include mypost.html %}
-      {% endfor %}
-    </div>
-    구벨로그 api끝-->
 
 <!-- velog feed api -->
 
-<div id="feed" style="display: grid; grid-template-columns: repeat(2, 1fr); justify-content: center; align-items: center; grid-row-gap: 80px; grid-column-gap: 50px;"></div>
+<div id="feed"></div>
 <script>
   fetch('https://velogfeed.vercel.app/api/feed?username=dksduddnr33&postnum=6')
     .then(res => res.json())
     .then(postinfoList => {
       const feedElement = document.getElementById('feed');
-      
+
       postinfoList.forEach((postinfo, index) => {
         const svg = postinfo.svg;
         const url = postinfo.url;
@@ -36,11 +54,8 @@ title: My Blog
       });
     })
     .catch(error => console.error(error));
+
 </script>
 
-
 <!-- velog feed api end -->
-
-  </div>
-</section>
 
