@@ -1,7 +1,29 @@
-<div class="col-lg-6 col-sm-6 mb-4">
+<div class="row justify-content-center">
     <article class="card shadow">
         <div class="card-body">
-            {{ post.content }}
+            <div id="feed" class="row row-cols-1 row-cols-md-3"></div>
+            <script>
+                fetch('https://velogfeed.vercel.app/api/simple-feed?username=dksduddnr33&postnum=3')
+                    .then(res => res.json())
+                    .then(postinfoList => {
+                        const feedElement = document.getElementById('feed');
+                        postinfoList.forEach((postinfo) => {
+                            const svg = postinfo.svg;
+                            const url = postinfo.url;
+                            const cardHtml = `
+                                    <div class="col-lg-4">
+                                        <div style="text-align: center;">
+                                            <a href="${url}">
+                                                ${svg} 
+                                            </a>
+                                        </div>
+                                    </div>
+                                `;
+                            feedElement.innerHTML += cardHtml;
+                        });
+                    })
+                    .catch(error => console.error(error));
+            </script>
         </div>
     </article>
 </div>
