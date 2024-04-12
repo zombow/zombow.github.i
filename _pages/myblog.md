@@ -42,7 +42,7 @@ title: My Blog
         const url = postinfo.url;
         const cardHtml = `
           <div style="text-align: center;">
-            <a href="${url}">${svg}</a> <!-- postcard 위치 -->
+            <a href="${url}">${svg}</a>
           </div>
         `;
         feedElement.innerHTML += cardHtml;
