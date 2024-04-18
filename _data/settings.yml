@@ -142,26 +142,26 @@ myskills:
 #-------------------------------
 ## Exprerience Section
 
-#experience-title: Experience 이력사항
-#experience:
-#  - {
-#      name: Junior UX Designer,
-#      icon: "icon-1.png",
-#      date: "Jan 2007 - Feb 2009",
-#      organization: "WEBEX",
-#    }
-#  - {
-#      name: UX & UI Designer,
-#      icon: "icon-2.png",
-#      date: "Mar 2009 - Aug 2014",
-#      organization: "AUGMEDIX",
-#    }
-#  - {
-#      name: Senior UI Designer,
-#      icon: "icon-3.png",
-#      date: "Sep 2014 - Present",
-#      organization: "THEMEFISHER",
-#    }
+experience-title: 프리랜싱 이력
+experience:
+  - {
+      name: Unity기반 모바일 앱개발 참여,
+      icon: "NUSoftlogo.png",
+      date: "2023.06 - 2023.08",
+      organization: "NUSoft",
+    }
+  #- {
+  #    name: UX & UI Designer,
+  #    icon: "icon-2.png",
+  #    date: "Mar 2009 - Aug 2014",
+  #    organization: "AUGMEDIX",
+  #  }
+  #- {
+  #    name: Senior UI Designer,
+  #    icon: "icon-3.png",
+  #    date: "Sep 2014 - Present",
+  #    organization: "THEMEFISHER",
+  #  }
 
 #-------------------------------
 # Portfolio (Section and Page)
@@ -185,59 +185,25 @@ portfolio-home-items:
 
 # Portfolio Page 포트폴리오
 portfolio-label:
-  - { title: "UI/UX Design", type: "design" }
-  - { title: "BRANDING", type: "branding" }
-  - { title: "ILLUSTRATION", type: "illustration" }
+  - { title: "Unreal", type: "Unreal" }
+  - { title: "Unity", type: "Unity" }
 
 portfolio-items:
-  - image: "assets/images/portfolio/item-1.png"
-    url: "#"
+  - image: "assets/images/portfolio/CrowdedRoom.png"
+    url: "https://github.com/zombow/ProjectID"
     portfolio-type:
-      - type: "design"
-      - type: "illustration"
+      - type: "Unreal"
 
-  - image: "assets/images/portfolio/item-2.png"
-    url: "#"
+  - image: "assets/images/portfolio/LittleNightMares.png"
+    url: "https://github.com/zombow/LittleNightMare_Copy"
     portfolio-type:
-      - type: "branding"
+      - type: "Unreal"
 
-  - image: "assets/images/portfolio/item-3.png"
-    url: "#"
+  - image: "assets/images/portfolio/AbandonedHouse.png"
+    url: "https://github.com/zombow/AbandonedHouse"
     portfolio-type:
-      - type: "illustration"
+      - type: "Unity"
 
-  - image: "assets/images/portfolio/item-6.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      - type: "branding"
-
-  - image: "assets/images/portfolio/item-8.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
-
-  - image: "assets/images/portfolio/item-5.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-
-  - image: "assets/images/portfolio/item-1.png"
-    url: "#"
-    portfolio-type:
-      - type: "branding"
-
-  - image: "assets/images/portfolio/item-3.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      - type: "illustration"
-      - type: "branding"
-
-  - image: "assets/images/portfolio/item-7.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
 
 #-------------------------------
 ## Services Section 내가 제공하는 기술
