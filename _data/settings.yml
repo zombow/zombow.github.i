@@ -7,7 +7,7 @@ logo:
 author: Designed & Developed by Themefisher, Modified by zombow
 description: Portfolio, 포트폴리오
 email: dksduddnr33@gmail.com
-phone: +82 010 5465 5617
+phone: +82 5465 5617
 address: 경기도 고양시 일산동구 식사동 / Korea
 copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com) / Modified by [zombow](https://github.com/zombow)
 
@@ -168,20 +168,14 @@ experience:
 
 # Portfolio Home Section 포트폴리오 미리보기
 portfolio-home-items:
-  - image: "assets/images/portfolio/item-1.png"
-    url: "#"
+  - image: "assets/images/portfolio/CrowdedRoom.png"
+    url: "https://github.com/zombow/ProjectID"
 
-  - image: "assets/images/portfolio/item-2.png"
-    url: "#"
+  - image: "assets/images/portfolio/LittleNightMares.png"
+    url: "https://github.com/zombow/LittleNightMare_Copy"
 
-  - image: "assets/images/portfolio/item-3.png"
-    url: "#"
-
-  - image: "assets/images/portfolio/item-4.png"
-    url: "#"
-
-  - image: "assets/images/portfolio/item-5.png"
-    url: "#"
+  - image: "assets/images/portfolio/AbandonedHouse.png"
+    url: "https://github.com/zombow/AbandonedHouse"
 
 # Portfolio Page 포트폴리오
 portfolio-label:
@@ -193,6 +187,7 @@ portfolio-items:
     url: "https://github.com/zombow/ProjectID"
     portfolio-type:
       - type: "Unreal"
+    description: "aaa"
 
   - image: "assets/images/portfolio/LittleNightMares.png"
     url: "https://github.com/zombow/LittleNightMare_Copy"

@@ -1,5 +1,13 @@
 @font-face {
     font-family:'bitbit';
-    src: url('/assets/fonts/DNFBitBitTTF.ttf') format('truetype');
-    src: url('/assets/fonts/DNFBitBitOTF.otf') format('opentype');
+    src: url('/assets/fonts/DNFBitBitv2.ttf') format('truetype');
+    src: url('/assets/fonts/DNFBitBitv2.otf') format('opentype');
+}
+
+@font-face {
+    font-family:'Warhaven';
+    src: url('/assets/fonts/Warhaven_Bold.ttf') format('truetype');
+    src: url('/assets/fonts/Warhaven_OTF_Bold.otf') format('opentype');
+    src: url('/assets/fonts/Warhaven_Regular.ttf') format('truetype');
+    src: url('/assets/fonts/Warhaven_OTF_Regular.otf') format('opentype');
 }
