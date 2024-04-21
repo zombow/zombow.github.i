@@ -187,17 +187,19 @@ portfolio-items:
     url: "https://github.com/zombow/ProjectID"
     portfolio-type:
       - type: "Unreal"
-    description: "aaa"
+    description: "Unreal / 1인칭 / 방탈출"
 
   - image: "assets/images/portfolio/LittleNightMares.png"
     url: "https://github.com/zombow/LittleNightMare_Copy"
     portfolio-type:
       - type: "Unreal"
-
+    description: "Unreal / 3인칭 / 호러"
+    
   - image: "assets/images/portfolio/AbandonedHouse.png"
     url: "https://github.com/zombow/AbandonedHouse"
     portfolio-type:
       - type: "Unity"
+    description: "Unity / VR / 호러"    
 
 
 #-------------------------------

@@ -1,7 +1,7 @@
 /* Button style */
 .btn {
   font-size: 22px;
-  font-family: $secondary-font;
+  font-family: $secondary-font; //?? ??
   text-transform: capitalize;
   padding: 16px 44px;
   border-radius: 5px;
@@ -60,4 +60,11 @@
   &:hover {
     color: $primary-color;
   }
+}
+
+.additional-text {
+  font-family: $primary-font;
+  display: block; /* ?? ???? ??? ??? ????? ?? */
+  font-size: 15px; /* ??? ?? ??? ?? */
+  color: $white; /* ??? ??? ???? ?? */
 }
