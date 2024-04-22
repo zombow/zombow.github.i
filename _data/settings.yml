@@ -184,18 +184,21 @@ portfolio-label:
 
 portfolio-items:
   - image: "assets/images/portfolio/CrowdedRoom.png"
+    portfolio-name: "Crowded Room"
     url: "https://github.com/zombow/ProjectID"
     portfolio-type:
       - type: "Unreal"
     description: "Unreal / 1인칭 / 방탈출"
 
   - image: "assets/images/portfolio/LittleNightMares.png"
+    portfolio-name: "LittleNightMares Copy"
     url: "https://github.com/zombow/LittleNightMare_Copy"
     portfolio-type:
       - type: "Unreal"
     description: "Unreal / 3인칭 / 호러"
     
   - image: "assets/images/portfolio/AbandonedHouse.png"
+    portfolio-name: "Abandoned House"
     url: "https://github.com/zombow/AbandonedHouse"
     portfolio-type:
       - type: "Unity"

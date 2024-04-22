@@ -42,7 +42,7 @@ title: My Blog
         const url = postinfo.url;
         const cardHtml = `
           <div style="text-align: center;">
-            <a href="${url}">${svg}</a>
+            <a href="${url}" target = "_blank">${svg}</a>
           </div>
         `;
         feedElement.innerHTML += cardHtml;
