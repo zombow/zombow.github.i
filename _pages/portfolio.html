@@ -24,7 +24,7 @@ title: Portfolio
             <div class="col-lg-6 col-6 mb-4 shuffle-item" data-groups="[{% for portfolio in item.portfolio-type %}{% if forloop.first == true %}{% else %},{% endif %}&quot;{{ portfolio.type }}&quot;{% endfor %}]">
                 <div class="position-relative rounded hover-wrapper">
                     <img src="{{ site.baseurl }}/{{ item.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
-                    <div class="position-relative hover-overlay" onclick="window.open('{{ item.url }}', '_blank');"  style="cursor: pointer;">
+                    <div class="hover-overlay" onclick="window.open('{{ item.url }}', '_blank');"  style="cursor: pointer;">
                         <div class="hover-content">
                             <a class="btn btn-light btn-sm">{{item.portfolio-name}}</a>
                             <span class=" btn additional-text">{{item.description}}</span>
