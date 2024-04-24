@@ -21,7 +21,7 @@
   }
 
   &-sm {
-    font-size: clamp(8px, 1vw, 20px);
+    font-size: clamp(1%, 2vw, 20px);
     padding: 10px 30px;
   }
 
@@ -65,6 +65,6 @@
 .additional-text {
   font-family: $primary-font;
   display: block;
-  font-size: clamp(8px, 1vw, 15px);;
+  font-size: clamp(1%, 2vw, 15px);;
   color: $white;
 }
