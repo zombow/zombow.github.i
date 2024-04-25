@@ -17,13 +17,13 @@ title: My Blog
     }
 
     #feed > div {
-      width: calc(50% - 20px); /* 각 객체의 너비를 33.33%로 설정 */
-      margin-bottom: 50px; /* 아래쪽 간격 설정 */
+      width: calc(50% - 100px); 
+      margin-bottom: 50px;
     }
 
-    @media screen and (max-width: 1000px) {
+    @media screen and (max-width: 768px) {
       #feed > div {
-        width: calc(100% - 20px); /* 화면이 작아질 때, 2개의 객체가 한 줄에 표시되도록 설정 */
+        width: calc(100% - 100px); /* 화면이 작아질 때, 2개의 객체가 한 줄에 표시되도록 설정 */
       }
     }
   </style>
