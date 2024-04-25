@@ -38,14 +38,28 @@ title: My Blog
     .then(postinfoList => {
       const feedElement = document.getElementById('feed');
       postinfoList.forEach((postinfo) => {
-        const svg = postinfo.svg;
         const url = postinfo.url;
         const cardHtml = `
           <div style="text-align: center;">
-            <a href="${url}" target = "_blank">${svg}</a>
+            <a href="${url}" target="_blank">${postinfo.svg}</a>
           </div>
         `;
         feedElement.innerHTML += cardHtml;
+      });
+      const svgs = document.querySelectorAll('#feed svg');
+      svgs.forEach(svg => {
+        const newWidth = 100;
+        const newHeight = 50;
+        const viewBoxAttr = svg.getAttribute('viewBox');
+        const viewBoxValues = viewBoxAttr.split(' ');
+        const svgWidth = parseFloat(viewBoxValues[2]);
+        const svgHeight = parseFloat(viewBoxValues[3]);
+        const widthRatio = newWidth / svgWidth;
+        const heightRatio = newHeight / svgHeight;
+        const newViewBox = `0 0 ${svgWidth * widthRatio} ${svgHeight * heightRatio}`;
+        svg.setAttribute('viewBox', newViewBox);
+        svg.setAttribute('width', newWidth);
+        svg.setAttribute('height', newHeight);
       });
     })
     .catch(error => console.error(error));
