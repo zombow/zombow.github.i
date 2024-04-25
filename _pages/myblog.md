@@ -10,46 +10,49 @@ title: My Blog
   <title>My Blog</title>
   <style>
     #feed {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center; /* 가로 간격을 균등하게 분배하여 정렬 */
-        column-gap:30px;
-        row-gap: 50px;
-    }
-    @media screen and (max-width: 1000px) {
-    #feed {
-        display: flex;
-        justify-content: center; /* 가로 간격을 균등하게 분배하여 정렬 */
-      }
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; /* 가로 간격을 균등하게 분배하여 정렬 */
+      gap: 50px 30px; /* row-gap과 column-gap을 한 번에 설정 */
     }
 
+    #feed > div {
+      width: calc(50% - 20px); /* 각 객체의 너비를 33.33%로 설정 */
+      margin-bottom: 50px; /* 아래쪽 간격 설정 */
+    }
+
+    @media screen and (max-width: 1000px) {
+      #feed > div {
+        width: calc(100% - 20px); /* 화면이 작아질 때, 2개의 객체가 한 줄에 표시되도록 설정 */
+      }
+    }
   </style>
 </head>
 <body>
 
 <section class="section">
+  <!-- velog feed api -->
+  <div id="feed"></div>
+  <script>
+    fetch('https://velogfeed.vercel.app/api/feed?username=dksduddnr33&postnum=6')
+      .then(res => res.json())
+      .then(postinfoList => {
+        const feedElement = document.getElementById('feed');
+        postinfoList.forEach((postinfo) => {
+          const svg = postinfo.svg;
+          const url = postinfo.url;
+          const cardHtml = `
+            <div style="text-align: center;">
+              <a href="${url}" target="_blank">${svg}</a>
+            </div>
+          `;
+          feedElement.innerHTML += cardHtml;
+        });
+      })
+      .catch(error => console.error(error));
+  </script>
+  <!-- velog feed api end -->
+</section>
 
-<!-- velog feed api -->
-
-<div id="feed"></div>
-<script>
-  fetch('https://velogfeed.vercel.app/api/feed?username=dksduddnr33&postnum=6')
-    .then(res => res.json())
-    .then(postinfoList => {
-      const feedElement = document.getElementById('feed');
-      postinfoList.forEach((postinfo) => {
-        const svg = postinfo.svg;
-        const url = postinfo.url;
-        const cardHtml = `
-          <div style="text-align: center;">
-            <a href="${url}" target = "_blank">${svg}</a>
-          </div>
-        `;
-        feedElement.innerHTML += cardHtml;
-      });
-    })
-    .catch(error => console.error(error));
-</script>
-
-<!-- velog feed api end -->
-
+</body>
+</html>
