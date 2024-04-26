@@ -235,17 +235,17 @@ portfolio-items:
 education-title: Education
 education:
   - {
-      name: "메타버스3.0 : AI기반 창작 인력 양성과정 수료",
+      name: "메타버스3.0 : AI기반 창작 인력 <br>양성과정 수료",
       date: "2022.07 ~ 2022.11",
       organization: "한국콘텐츠진흥원 - 언리얼 프로그래밍",
     }
   - {
-      name: "유니티 AR/VR 콘텐츠 양성자 교육과정 수료",
+      name: "유니티 AR/VR 콘텐츠 양성자 <br>교육과정 수료",
       date: "2021.10 ~ 2022.03",
       organization: "고용노동부 - 유니티 프로그래밍",
     }
   - {
-      name: "김포대학교 컴퓨터 네트워크과 졸업",
+      name: "김포대학교 컴퓨터 네트워크과 <br>졸업",
       date: "2017.03 ~ 2019.02",
       organization: "김포대학교",
     }
