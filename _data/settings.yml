@@ -120,13 +120,6 @@ myskills:
     - icon: "assets/images/icons/plan.png"
       title: C#
       content: 유니티를 하기위해 사용했던 C#에대해 조금 설명해야합니다.
-  학습중인 기술:
-    - icon: "assets/images/icons/plan.png"
-      title: 필요
-      content: 전문적이진않지만 배웠던 기술에대해 조금씩 설명합니다.
-    - icon: "assets/images/icons/plan.png"
-      title: 필요
-      content: 짧게해본적이있어 넓은범위의 지식이있음을 알수있게해야합니다.
 
 
 #-------------------------------
