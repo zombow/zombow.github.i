@@ -58,19 +58,19 @@ mytraits:
   - {
       name: 오픈 마인드,
       icon: ti-palette,
-      description: "반대보단 한번더 생각해보고 판단",
+      description: "다양한 아이디어와 관점을 수용하여 <br> 새로운 경험과 지식을 환영합니다.",
       active: false, # Add true to select section
     }
   - {
       name: 원할한 커뮤니케이션,
       icon: ti-vector,
-      description: "타인과 대화하고 아이디어를 공유하는것은 즐겁다.",
+      description: "상대방의 의견을 경청하고 의사소통하여 <br> 목표를 이루는데 중점을 둡니다.",
       active: true, # Add true to select section
     }
   - {
       name: 배우는 자세,
       icon: ti-panel,
-      description: "언제나 자신의 부족한점을 개선하려하고 배우려고한다",
+      description: "항상 배우는 자세를 갖추어<br>새로운 지식과 기술을 습득하려 노력합니다.",
       active: false, # Add true to select section
     }
 
