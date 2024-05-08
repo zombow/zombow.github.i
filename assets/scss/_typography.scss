@@ -26,12 +26,16 @@ p, .paragraph {
   }
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h6 {
   color: $text-color-dark;
   font-family: $secondary-font;
   line-height: 1.2;
 }
-
+h4, h5{
+  color: $text-color-dark;
+  font-family: $primary-font;
+  line-height: 1.2;
+}
 h1, .h1{
   font-size: 80px;
   @include desktop {
