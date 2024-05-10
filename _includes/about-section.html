@@ -3,7 +3,13 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-10 mx-auto text-center">
-        <p class="font-secondary paragraph-lg text-dark">{{ site.data.settings.blurb }}</p>
+        <div class="col-md-3 text-center mx-left">
+          <div class="shadow-down mb-4">
+            <img src="assets/images/about/An.jpg" alt="{{ page.author }}"
+                 class="img-fluid w-100 rounded-lg border-thick" style="border-color :#41228E;">
+          </div>
+        </div>
+        <p class="font-secondary paragraph-lg text-dark drag-lg-top">{{ site.data.settings.blurb }}</p>
         <a href="{{ site.data.settings.blurb-btn-link }}" class="btn btn-transparent">{{ site.data.settings.blurb-btn-name }}</a>
       </div>
     </div>
