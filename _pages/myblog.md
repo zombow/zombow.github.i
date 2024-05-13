@@ -17,13 +17,12 @@ title: My Blog
     }
 
     #feed > div {
-      width: calc(50% - 100px); 
-      margin-bottom: 50px;
+      width: calc(50% - 100px);
     }
 
     @media screen and (max-width: 768px) {
       #feed > div {
-        width: calc(100% - 100px); /* 화면이 작아질 때, 2개의 객체가 한 줄에 표시되도록 설정 */
+         width: calc(90%); /* 화면이 작아질 때, 2개의 객체가 한 줄에 표시되도록 설정 */
       }
     }
   </style>

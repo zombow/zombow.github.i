@@ -14,7 +14,7 @@ p, .paragraph {
   color: $text-color;
   font-size: 15px;
   @include desktop {
-    font-size: 13px;
+    font-size: 12px;
   }
   line-height: 1.8;
   font-family: $primary-font;
@@ -55,7 +55,7 @@ h3, .h3{
 }
 
 h4, .h4{
-  font-size: 21px;
+  font-size: 25px;
   @include desktop {
     font-size: 17px;
   }

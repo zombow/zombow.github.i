@@ -21,8 +21,12 @@
   }
 
   &-sm {
-    font-size: clamp(0.3em, 2vw, 20px);
+    font-size: clamp(1em, 2vw, 20px);
     padding: 10px 20px;
+  }
+  &-sm2 {
+    font-size: clamp(0.5em, 2vw, 20px);
+    padding: 5px 5px;
   }
 
   &-xs {
@@ -65,6 +69,6 @@
 .additional-text {
   font-family: $primary-font;
   display: block;
-  font-size: clamp(0.3em, 2vw, 15px);;
+  font-size: clamp(0.5em, 2vw, 15px);;
   color: $white;
 }
