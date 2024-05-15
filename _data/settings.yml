@@ -39,14 +39,46 @@ hero:
   hero-title: Developer <br> 안영욱 <br> Portfolio
 
 social:
-  - { icon: "myicon-github", link: "https://github.com/zombow"}
+  - { icon: "myicon-github", link: "https://github.com/zombow" }
   - { icon: "myicon-velog", link: "https://velog.io/@dksduddnr33" }
 
 #-------------------------------
 # About (Section and Page)
 
 # About Section 나에대한 짧은소개
+about-title: About Me
 blurb: "최선을다하고 노력하는 <br>신입 게임개발자 안영욱 입니다 <br>최고의 게임을 위해 달리고 싶습니다."
+infos:
+  - {
+    icon: "assets/images/icons/name-icon.png",
+    title: 이름,
+    data: 안영욱,
+  }
+  - {
+    icon: "assets/images/icons/date-icon.png",
+    title: 생년월일,
+    data: 98.07.31,
+  }
+  - {
+    icon: "assets/images/icons/location-icon.png",
+    title: 주소,
+    data: 고양시 일산동구 식사동,
+  }
+  - {
+    icon: "assets/images/icons/phone-icon.png",
+    title : 연락처,
+    data: 010-5465-5617,
+  }
+  - {
+    icon: "assets/images/icons/email-icon.png",
+    title : 이메일,
+    data: dksduddnr33@gmail.com,
+  }
+  - {
+    icon: "assets/images/icons/education-icon.png",
+    title : 학력,
+    data: 김포대학교 <br> (컴퓨터네트워크과)
+  }
 blurb-btn-link: "/about"
 blurb-btn-name: know more
 
@@ -56,23 +88,23 @@ blurb-btn-name: know more
 mytraits-title: Traits
 mytraits:
   - {
-      name: 오픈 마인드,
-      icon: ti-palette,
-      description: "다양한 아이디어와 관점을 수용하여 <br> 새로운 경험과 지식을 환영합니다.",
-      active: false, # Add true to select section
-    }
+    name: 오픈 마인드,
+    icon: ti-palette,
+    description: "다양한 아이디어와 관점을 수용하여 <br> 새로운 경험과 지식을 환영합니다.",
+    active: false, # Add true to select section
+  }
   - {
-      name: 원할한 커뮤니케이션,
-      icon: ti-vector,
-      description: "상대방의 의견을 경청하고 의사소통하여 <br> 목표를 이루는데 중점을 둡니다.",
-      active: true, # Add true to select section
-    }
+    name: 원할한 커뮤니케이션,
+    icon: ti-vector,
+    description: "상대방의 의견을 경청하고 의사소통하여 <br> 목표를 이루는데 중점을 둡니다.",
+    active: true, # Add true to select section
+  }
   - {
-      name: 배우는 자세,
-      icon: ti-panel,
-      description: "항상 배우는 자세를 갖추어<br>새로운 지식과 기술을 습득하려 노력합니다.",
-      active: false, # Add true to select section
-    }
+    name: 배우는 자세,
+    icon: ti-panel,
+    description: "항상 배우는 자세를 갖추어<br>새로운 지식과 기술을 습득하려 노력합니다.",
+    active: false, # Add true to select section
+  }
 
 #--------------------------
 # Work Process Section 워크프로세스
@@ -137,11 +169,11 @@ myskills:
 experience-title: 프리랜싱 이력
 experience:
   - {
-      name: Unity기반 모바일 <br> 앱개발 참여,
-      icon: "NUSoftlogo.png",
-      date: "2023.06 - 2023.08",
-      organization: "NUSoft",
-    }
+    name: Unity기반 모바일 <br> 앱개발 참여,
+    icon: "NUSoftlogo.png",
+    date: "2023.06 - 2023.08",
+    organization: "NUSoft",
+  }
   #- {
   #    name: UX & UI Designer,
   #    icon: "icon-2.png",
@@ -188,13 +220,13 @@ portfolio-items:
     portfolio-type:
       - type: "Unreal"
     description: "Unreal / 3인칭 / 호러"
-    
+
   - image: "assets/images/portfolio/AbandonedHouse.png"
     portfolio-name: "Abandoned House"
     url: "https://github.com/zombow/AbandonedHouse"
     portfolio-type:
       - type: "Unity"
-    description: "Unity / VR / 호러"    
+    description: "Unity / VR / 호러"
 
 
 #-------------------------------
@@ -227,20 +259,20 @@ portfolio-items:
 education-title: Education
 education:
   - {
-      name: "메타버스3.0 : AI기반 창작 인력 <br>양성과정 수료",
-      date: "2022.07 ~ 2022.11",
-      organization: "한국콘텐츠진흥원 - 언리얼 프로그래밍",
-    }
+    name: "메타버스3.0 : AI기반 창작 인력 <br>양성과정 수료",
+    date: "2022.07 ~ 2022.11",
+    organization: "한국콘텐츠진흥원 - 언리얼 프로그래밍",
+  }
   - {
-      name: "유니티 AR/VR 콘텐츠 양성자 <br>교육과정 수료",
-      date: "2021.10 ~ 2022.03",
-      organization: "고용노동부 - 유니티 프로그래밍",
-    }
+    name: "유니티 AR/VR 콘텐츠 양성자 <br>교육과정 수료",
+    date: "2021.10 ~ 2022.03",
+    organization: "고용노동부 - 유니티 프로그래밍",
+  }
   - {
-      name: "김포대학교 컴퓨터 네트워크과 <br>졸업",
-      date: "2017.03 ~ 2019.02",
-      organization: "김포대학교",
-    }
+    name: "김포대학교 컴퓨터 네트워크과 <br>졸업",
+    date: "2017.03 ~ 2019.02",
+    organization: "김포대학교",
+  }
 
 
 #-------------------------------
